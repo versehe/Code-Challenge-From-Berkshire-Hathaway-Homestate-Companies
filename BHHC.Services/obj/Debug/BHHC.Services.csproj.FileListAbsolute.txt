@@ -1,0 +1,14 @@
+C:\Users\147862\Videos\BHHC\BHHC.Services\bin\Debug\BHHC.Services.dll
+C:\Users\147862\Videos\BHHC\BHHC.Services\bin\Debug\BHHC.Services.pdb
+C:\Users\147862\Videos\BHHC\BHHC.Services\obj\Debug\BHHC.Services.csprojAssemblyReference.cache
+C:\Users\147862\Videos\BHHC\BHHC.Services\obj\Debug\BHHC.Services.csproj.CoreCompileInputs.cache
+C:\Users\147862\Videos\BHHC\BHHC.Services\obj\Debug\BHHC.Services.dll
+C:\Users\147862\Videos\BHHC\BHHC.Services\obj\Debug\BHHC.Services.pdb
+C:\Users\147862\Videos\BHHC\BHHC.Services\bin\Debug\BHHC.DTO.dll
+C:\Users\147862\Videos\BHHC\BHHC.Services\bin\Debug\BHHC.DTO.pdb
+C:\Users\147862\Videos\BHHC\BHHC.Services\obj\Debug\BHHC.Services.csproj.CopyComplete
+C:\Users\147862\Videos\BHHC\BHHC.Services\bin\Debug\EntityFramework.dll
+C:\Users\147862\Videos\BHHC\BHHC.Services\bin\Debug\EntityFramework.xml
+C:\Users\147862\Videos\BHHC\BHHC.Services\bin\Debug\BHHC.Persistences.dll
+C:\Users\147862\Videos\BHHC\BHHC.Services\bin\Debug\BHHC.Persistences.pdb
+C:\Users\147862\Videos\BHHC\BHHC.Services\bin\Debug\BHHC.Persistences.dll.config

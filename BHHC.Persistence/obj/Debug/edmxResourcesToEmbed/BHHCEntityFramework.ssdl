@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BHHCDbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CompanyRank">
+    <Key>
+      <PropertyRef Name="RowID" />
+    </Key>
+    <Property Name="RowID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Year" Type="int" />
+    <Property Name="Insurer" Type="nchar" MaxLength="50" />
+    <Property Name="Rank" Type="int" />
+    <Property Name="Premium" Type="smallmoney" />
+    <Property Name="MarketShare" Type="float" />
+  </EntityType>
+  <EntityType Name="ContactForm">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="ContactReason" Type="nchar" MaxLength="50" />
+    <Property Name="FirsrtName" Type="nchar" MaxLength="50" />
+    <Property Name="LastName" Type="nchar" MaxLength="50" />
+    <Property Name="PhoneNumber" Type="nchar" MaxLength="20" />
+    <Property Name="ContactTime" Type="int" />
+    <Property Name="Email" Type="nchar" MaxLength="30" />
+    <Property Name="Message" Type="text" />
+  </EntityType>
+  <EntityContainer Name="BHHCDbModelStoreContainer">
+    <EntitySet Name="CompanyRank" EntityType="Self.CompanyRank" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ContactForm" EntityType="Self.ContactForm" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

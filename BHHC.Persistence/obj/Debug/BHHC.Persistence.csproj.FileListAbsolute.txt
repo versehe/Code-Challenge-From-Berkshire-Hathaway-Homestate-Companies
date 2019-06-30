@@ -1,0 +1,14 @@
+C:\Users\147862\Videos\BHHC\BHHC.Persistence\bin\Debug\BHHC.Persistence.dll
+C:\Users\147862\Videos\BHHC\BHHC.Persistence\bin\Debug\BHHC.Persistence.pdb
+C:\Users\147862\Videos\BHHC\BHHC.Persistence\obj\Debug\BHHC.Persistence.csprojAssemblyReference.cache
+C:\Users\147862\Videos\BHHC\BHHC.Persistence\obj\Debug\BHHC.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\147862\Videos\BHHC\BHHC.Persistence\obj\Debug\BHHC.Persistence.dll
+C:\Users\147862\Videos\BHHC\BHHC.Persistence\obj\Debug\BHHC.Persistence.pdb
+C:\Users\147862\Videos\BHHC\BHHC.Persistence\bin\Debug\BHHC.DTO.dll
+C:\Users\147862\Videos\BHHC\BHHC.Persistence\bin\Debug\BHHC.DTO.pdb
+C:\Users\147862\Videos\BHHC\BHHC.Persistence\obj\Debug\BHHC.Persistence.csproj.CopyComplete
+C:\Users\147862\Videos\BHHC\BHHC.Persistence\bin\Debug\BHHC.Persistence.dll.config
+C:\Users\147862\Videos\BHHC\BHHC.Persistence\bin\Debug\EntityFramework.dll
+C:\Users\147862\Videos\BHHC\BHHC.Persistence\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\147862\Videos\BHHC\BHHC.Persistence\bin\Debug\EntityFramework.xml
+C:\Users\147862\Videos\BHHC\BHHC.Persistence\bin\Debug\EntityFramework.SqlServer.xml

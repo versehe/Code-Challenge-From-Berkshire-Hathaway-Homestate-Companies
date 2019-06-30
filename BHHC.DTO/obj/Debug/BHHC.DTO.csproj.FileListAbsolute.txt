@@ -1,0 +1,6 @@
+C:\Users\147862\Videos\BHHC\BHHC.DTO\bin\Debug\BHHC.DTO.dll
+C:\Users\147862\Videos\BHHC\BHHC.DTO\bin\Debug\BHHC.DTO.pdb
+C:\Users\147862\Videos\BHHC\BHHC.DTO\obj\Debug\BHHC.DTO.csproj.CoreCompileInputs.cache
+C:\Users\147862\Videos\BHHC\BHHC.DTO\obj\Debug\BHHC.DTO.dll
+C:\Users\147862\Videos\BHHC\BHHC.DTO\obj\Debug\BHHC.DTO.pdb
+C:\Users\147862\Videos\BHHC\BHHC.DTO\obj\Debug\BHHC.DTO.csprojAssemblyReference.cache

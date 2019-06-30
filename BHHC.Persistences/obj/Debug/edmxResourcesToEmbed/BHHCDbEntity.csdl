@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BHHCDbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CompanyRank">
+    <Key>
+      <PropertyRef Name="RowID" />
+    </Key>
+    <Property Name="RowID" Type="Guid" Nullable="false" />
+    <Property Name="Year" Type="Int32" />
+    <Property Name="Insurer" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="Rank" Type="Int32" />
+    <Property Name="Premium" Type="Decimal" Precision="10" Scale="4" />
+    <Property Name="MarketShare" Type="Double" />
+  </EntityType>
+  <EntityType Name="ContactForm">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Guid" Nullable="false" />
+    <Property Name="ContactReason" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="FirsrtName" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+    <Property Name="ContactTime" Type="BHHCDbModel.ContactTime" />
+    <Property Name="Email" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+    <Property Name="Message" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="BHHCDbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CompanyRanks" EntityType="Self.CompanyRank" />
+    <EntitySet Name="ContactForms" EntityType="Self.ContactForm" />
+  </EntityContainer>
+  <EnumType Name="ContactTime" a:ExternalTypeName="BHHC.DTO.Enums.ContactTime" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
+</Schema>

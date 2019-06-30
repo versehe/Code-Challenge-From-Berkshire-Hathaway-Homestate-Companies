@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="BHHC.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>BHHC Master Page</title>
+    <link href="ddsmoothmenu.css" rel="stylesheet" type="text/css"  /> 
+
+    <script type="text/javascript" src="jquery.min.js"> </script>
+    <script type="text/javascript" src="ddsmoothmenu.js">
+    /***********************************************
+    * Smooth Navigational Menu- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+    * This notice MUST stay intact for legal use
+    * Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+    ***********************************************/
+
+    </script>
+    
+    
+    <script type="text/javascript">
+
+    ddsmoothmenu.init({
+        mainmenuid: "smoothmenu1", //menu DIV id
+        orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+        classname: 'ddsmoothmenu', //class added to menu's outer DIV
+        //customtheme: ["#1c5a80", "#18374a"],
+        contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+    })
+
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="template" style="position: relative; margin:0;padding:60px; height:100%;">
+     <img alt="" src="logo.PNG" />
+     <div id="smoothmenu1" class="ddsmoothmenu">
+        <ul>
+            <li><a href="Company.aspx">Company Info</a></li>
+            <li><a href="Candidate.aspx">Candidate Profile</a></li>
+            <li><a href="ContactUs.aspx">Contact Us</a>
+                <ul>
+                    <li><a href="ContactUs.aspx">Contact Us</a></li> 
+                    <li><a href="#">Retrive Feedback</a></li> 
+                </ul>
+            </li>
+        </ul>
+            <br style="clear: left" />
+     </div>
+     <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                
+            </asp:ContentPlaceHolder>
+        </div>
+     </form>
+     <div style="background-color: #424242;text-align:center;position: fixed; bottom: 0;height:60px;width: 100%">
+        <a href="https://www.bhhc.com/about/history.aspx" style="color:white" >Learn more information about BHHC</a>
+     </div>
+</body>
+</html>

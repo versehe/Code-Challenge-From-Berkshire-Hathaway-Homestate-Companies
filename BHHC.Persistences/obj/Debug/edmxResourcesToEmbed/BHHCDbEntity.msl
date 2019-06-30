@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BHHCDbModelStoreContainer" CdmEntityContainer="BHHCDbEntities">
+    <EntitySetMapping Name="CompanyRanks">
+      <EntityTypeMapping TypeName="BHHCDbModel.CompanyRank">
+        <MappingFragment StoreEntitySet="CompanyRank">
+          <ScalarProperty Name="RowID" ColumnName="RowID" />
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="Insurer" ColumnName="Insurer" />
+          <ScalarProperty Name="Rank" ColumnName="Rank" />
+          <ScalarProperty Name="Premium" ColumnName="Premium" />
+          <ScalarProperty Name="MarketShare" ColumnName="MarketShare" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ContactForms">
+      <EntityTypeMapping TypeName="BHHCDbModel.ContactForm">
+        <MappingFragment StoreEntitySet="ContactForm">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ContactReason" ColumnName="ContactReason" />
+          <ScalarProperty Name="FirsrtName" ColumnName="FirsrtName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="ContactTime" ColumnName="ContactTime" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
